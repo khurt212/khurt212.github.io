@@ -1,0 +1,316 @@
+/* 1st page */
+.container{
+    max-width: 1200px;
+    height: 56px;
+    width: 100%;
+    margin: 12px auto;
+    position: relative;
+    
+}
+.madelyn{
+    font-family: "Comfortaa ";
+    color: #25282B;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.header .desktop-nav{
+   display: flex;
+   
+}
+
+.header .desktop-nav p{
+    margin-left: 48px;
+   
+}
+
+.desktop-nav{
+    cursor: pointer;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 500;
+    color: #25282B;
+    
+}
+
+.picture-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 720px;
+    width: 100%;
+    height: 720px;
+    z-index: -1;
+}
+
+
+/* 2nd page */
+
+.card-section{
+    display: flex; 
+    flex-direction: flex-start;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 486px;
+    width: 100%;
+    padding-top: 54px;
+    padding-left: 30px;
+}
+
+
+.card-design{
+    color: #FDC435;
+    font-size: 20px;
+    font-family: "Nunito";
+    font-weight: 700;
+    padding-bottom: 10px;
+    line-height: 27.28px;
+    margin-bottom: 0px;
+}
+
+.card-hello{
+    color: #25282B;
+    font-size: 64px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0,0.25);
+    padding-top: 0px;
+    line-height: 76.28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.card-short{
+    font-family: "Nunito";
+    text-shadow: 0px 4px 4px rgba(130, 130, 130,0.50);
+    font-size: 24px;
+    font-weight: 400;
+    color: #828282;
+
+}
+
+/* 2nd page button */
+
+
+.project-button{
+    
+    background-color: #FDC435;
+    border: none;
+    margin-right: 12px;
+    
+}
+
+.linkedin-button{
+    border: 2px solid black;
+    background-color: white;
+    
+
+}
+
+.linkedin-button, .project-button{
+    border-radius: 8px;
+    padding: 8px 24px 8px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #25282B;
+    cursor: pointer;
+}
+
+
+
+/* 3rd page */
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    padding-top: 200px;
+    justify-content: space-around;
+}
+.section-project{
+    display: flex;
+    font-weight: 700;
+    size: 50px;
+    line-height: 100px;
+    
+}
+
+/* 1st */
+.container-card-one{
+    display: flex;
+    border-radius: 24px;
+    box-shadow: 1px 1px 5px rgb(223, 221, 221);
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+/* 2nd */
+.container-card-two{
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 24px;
+    box-shadow: 1px 1px 5px rgb(223, 221, 221);
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 50px;
+    border: none;
+    
+    
+}
+.section-card-two{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    padding: 100px 101px 146px 50px;
+}
+
+.box-picture-container-two{
+    display: flex;
+    width: auto;
+}
+.picture-container-inside-two{
+    display: flex;
+    border-bottom-left-radius: 24px;
+    border-top-left-radius: 24px;  
+}
+
+
+
+/* 3rd */
+.container-card-three{
+    display: flex;
+    border-radius: 24px;
+    box-shadow: 1px 1px 5px rgb(223, 221, 221);
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.section-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 101px 146px 50px;
+}
+
+.box-picture-container{
+    display: flex;
+    width: auto;
+}
+.picture-container-inside{
+    display: flex;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;  
+}
+
+.project-main{
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-weight: 400px;
+    line-height: 60px;
+}
+
+.project-text{
+    font-family: "Nunito";
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #828282;
+
+}
+
+.section-button{
+    padding: 8px 24px 8px 24px;
+    border-radius: 24px;
+    border: 1px solid black;
+    font-family: "Roboto";
+    font-weight: 700;
+    size: 18px;
+    cursor: pointer;
+    background: none;
+    
+
+}
+/* 4th and last page*/
+.last-section{
+    display: flex;
+    padding-top: 150px;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    max-width: 900px;
+}
+.last-container-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 50px;
+  
+    
+}
+
+.last-container-picture{
+    display: flex;
+    width: 350px;
+    height: 350px;
+    max-width: auto;
+    border-radius: 300px;
+    background-image: url(./asssets/image6.png);
+    background-size: cover;
+    background-color: #FDC435;
+  
+}
+
+
+
+/* Icon contacts*/
+
+
+.picture-box{
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    
+
+}
+.picture-box-one{
+    display: flex;
+    justify-content: space-around;
+    width: 90px;
+    
+    
+}
+.picture-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.project-text-one{
+    display: flex;
+    justify-content: center;
+    font-family: "Nunito";
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #828282;
+    padding: 0px;
+    margin: 0px;
+
+}
